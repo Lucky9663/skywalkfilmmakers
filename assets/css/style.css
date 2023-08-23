@@ -18,7 +18,19 @@ a {
   color: #ffc451;
   text-decoration: none;
 }
-
+.button_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.send_email_button {
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+}
 a:hover {
   color: #ffd584;
   text-decoration: none;
